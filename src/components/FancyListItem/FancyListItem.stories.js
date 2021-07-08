@@ -10,9 +10,19 @@ export default {
 };
 
 export const Default = () => {
-  
   return (
-    <FancyListItem></FancyListItem>
+    <>
+      <FancyListItem left="Layered graphic print shirt" right="Comme des Garçons HOMME DEUX"/>
+      <FancyListItem left="Layered graphic print shirt" right="Comme des Garçons HOMME DEUX"/>
+    </>
   );
+}
 
+export const Blank = () => {
+  return (
+    <>
+      <FancyListItem left="Layered graphic print shirt" right="Comme des Garçons HOMME DEUX" blank/>
+      <FancyListItem left="Layered graphic print shirt" right="Comme des Garçons HOMME DEUX" blank/>
+    </>
+  );
 }
