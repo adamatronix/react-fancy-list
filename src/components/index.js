@@ -1,9 +1,7 @@
 // components/index.js
 
-/*
-import Button from './Button';
+import FancyListItem from './FancyListItem/FancyListItem';
 
 export { 
-    Button
+  FancyListItem
 };
-*/
