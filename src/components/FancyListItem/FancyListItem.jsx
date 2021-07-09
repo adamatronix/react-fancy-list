@@ -38,8 +38,8 @@ const FancyListItem = (props) => {
   const FillInner = styled.div`
     position: relative;
     width: 100%;
-    height: 50%;
-    border-bottom: 1px dotted #000;
+    height: 70%;
+    border-bottom: 1px solid #000;
   `
 
   return (
